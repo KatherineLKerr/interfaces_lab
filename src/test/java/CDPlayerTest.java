@@ -9,7 +9,7 @@ public class CDPlayerTest {
 
     @Before
     public void before() {
-        caddy = new CDPlayer("cdplayer brand", "cdplayer model", 5);
+        caddy = new CDPlayer("cdplayer brand", "cdplayer model", 3);
 
     }
 
@@ -21,8 +21,13 @@ public class CDPlayerTest {
     @Test
     public void canGetNumberOfCds() {
 
-        assertEquals(5, caddy.getNumberOfCds());
+        assertEquals(3, caddy.getNumberOfCds());
+    }
 
+    @Test
+    public void canSetCurrentlyPlaying(){
+        caddy.setCurrentlyPlaying(2);
+        assertEquals(2,caddy.getCurrentlyPlaying());
     }
 
 }
