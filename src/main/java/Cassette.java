@@ -1,4 +1,4 @@
-public class Cassette {
+public class Cassette extends Component{
 
 
 

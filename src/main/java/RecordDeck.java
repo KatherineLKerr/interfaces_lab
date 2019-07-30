@@ -1,2 +1,2 @@
-public class RecordDeck {
+public class RecordDeck extends Component {
 }
