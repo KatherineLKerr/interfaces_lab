@@ -26,5 +26,5 @@ public class SoundSystemTest{
         assertEquals(4,soundSystem.getVolume());
     }
 
-    
+
 }
