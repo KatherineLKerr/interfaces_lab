@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad6cc37c-b3f9-42c6-a10e-6dd9917eae43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,18 +64,31 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/CDPlayer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="97">
-                  <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+                <state relative-caret-position="323">
+                  <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
                   <folding>
-                    <element signature="e#333#334#0" expanded="true" />
-                    <element signature="e#372#373#0" expanded="true" />
-                    <element signature="e#419#420#0" expanded="true" />
-                    <element signature="e#463#464#0" expanded="true" />
-                    <element signature="e#527#528#0" expanded="true" />
-                    <element signature="e#583#584#0" expanded="true" />
+                    <element signature="e#551#552#0" expanded="true" />
+                    <element signature="e#590#591#0" expanded="true" />
+                    <element signature="e#630#631#0" expanded="true" />
+                    <element signature="e#674#675#0" expanded="true" />
+                    <element signature="e#735#736#0" expanded="true" />
+                    <element signature="e#791#792#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Radio.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#334#335#0" expanded="true" />
+                    <element signature="e#366#367#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -82,11 +98,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/RadioTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+                <state relative-caret-position="300">
+                  <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -95,23 +111,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Radio.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#334#335#0" expanded="true" />
-                    <element signature="e#366#367#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/CDPlayerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+                <state relative-caret-position="97">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -126,10 +129,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>connected</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,14 +147,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/IConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RadioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cassette.java" />
         <option value="$PROJECT_DIR$/src/main/java/RecordDeck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Radio.java" />
         <option value="$PROJECT_DIR$/src/main/java/SoundSystem.java" />
         <option value="$PROJECT_DIR$/src/test/java/SoundSystemTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IPlay.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RadioTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Radio.java" />
       </list>
     </option>
   </component>
@@ -229,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CDPlayerTest.canSetCurrentlyPlaying">
+  <component name="RunManager" selected="JUnit.RadioTest.canPlay">
     <configuration name="CDPlayerTest.canGetNumberOfCds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoundSystemLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,6 +259,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CDPlayerTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoundSystemLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CDPlayerTest.canSetCurrentlyPlaying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoundSystemLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -260,20 +279,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoundSystemLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoundSystemTest.canTuneRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SoundSystemLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SoundSystemTest" />
-      <option name="METHOD_NAME" value="canTuneRadio" />
+      <option name="METHOD_NAME" value="canPlay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.canPlay" />
+        <item itemvalue="JUnit.CDPlayerTest.canPlay" />
         <item itemvalue="JUnit.CDPlayerTest.canSetCurrentlyPlaying" />
         <item itemvalue="JUnit.CDPlayerTest.canHaveMake" />
         <item itemvalue="JUnit.CDPlayerTest.canGetNumberOfCds" />
-        <item itemvalue="JUnit.SoundSystemTest.canTuneRadio" />
-        <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -303,18 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SoundSystemTest - 2019.07.30 at 13h 09m 04s.xml">
-      <configuration name="SoundSystemTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SoundSystemTest - 2019.07.30 at 13h 09m 25s.xml">
-      <configuration name="SoundSystemTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SoundSystemTest_canChangeVolume - 2019.07.30 at 13h 12m 36s.xml">
-      <configuration name="SoundSystemTest.canChangeVolume" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioTest - 2019.07.30 at 13h 23m 23s.xml">
-      <configuration name="RadioTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SoundSystemTest_canTuneRadio - 2019.07.30 at 13h 29m 27s.xml">
       <configuration name="SoundSystemTest.canTuneRadio" configurationId="JUnit" />
     </history-entry>
@@ -333,6 +331,18 @@
     <history-entry file="CDPlayerTest_canHaveMake - 2019.07.30 at 13h 42m 34s.xml">
       <configuration name="CDPlayerTest.canHaveMake" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CDPlayerTest_canSetCurrentlyPlaying - 2019.07.30 at 13h 52m 15s.xml">
+      <configuration name="CDPlayerTest.canSetCurrentlyPlaying" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_canSetCurrentlyPlaying - 2019.07.30 at 13h 52m 44s.xml">
+      <configuration name="CDPlayerTest.canSetCurrentlyPlaying" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_canPlay - 2019.07.30 at 13h 59m 17s.xml">
+      <configuration name="CDPlayerTest.canPlay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RadioTest_canPlay - 2019.07.30 at 14h 02m 58s.xml">
+      <configuration name="RadioTest.canPlay" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -343,7 +353,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -440,16 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RadioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SoundSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -462,10 +462,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="314">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
@@ -473,25 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CDPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RadioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

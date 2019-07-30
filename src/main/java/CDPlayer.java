@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class CDPlayer extends Component{
+public class CDPlayer extends Component implements IPlay{
 
     private int numberOfCds;
     private int currentlyPlaying;
@@ -28,5 +28,10 @@ public class CDPlayer extends Component{
 
     public void setCurrentlyPlaying(int currentlyPlaying) {
         this.currentlyPlaying = currentlyPlaying;
+    }
+
+    public String play(){
+        System.out.println(cds.get(currentlyPlaying));
+        return cds.get(currentlyPlaying);
     }
 }

@@ -30,4 +30,10 @@ public class CDPlayerTest {
         assertEquals(2,caddy.getCurrentlyPlaying());
     }
 
+
+    @Test
+    public void canPlay(){
+        caddy.setCurrentlyPlaying(1);
+        assertEquals("Harrison the cd",caddy.play());
+    }
 }

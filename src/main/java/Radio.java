@@ -19,4 +19,9 @@ public class Radio extends Component {
     public void setFrequency(int frequency) {
         this.frequency = frequency;
     }
+
+    public String play(){
+        System.out.println("now playing "+frequency+". bzzzzzzt");
+        return "now playing "+frequency+". bzzzzzzt";
+    }
 }

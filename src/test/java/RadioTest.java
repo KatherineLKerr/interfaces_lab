@@ -21,6 +21,10 @@ public class RadioTest {
         assertEquals("radio model",raddy.getModel());
     }
 
-
+    @Test
+    public void canPlay(){
+        raddy.setFrequency(10056);
+        assertEquals("now playing 10056. bzzzzzzt",raddy.play());
+    }
 
 }
