@@ -9,13 +9,20 @@ public class CDPlayerTest {
 
     @Before
     public void before() {
-        caddy = new CDPlayer("cdplayer brand", "cdplayer model");
+        caddy = new CDPlayer("cdplayer brand", "cdplayer model", 5);
 
     }
 
     @Test
     public void canHaveMake() {
         assertEquals("cdplayer brand", caddy.getMake());
+    }
+
+    @Test
+    public void canGetNumberOfCds() {
+
+        assertEquals(5, caddy.getNumberOfCds());
+
     }
 
 }
