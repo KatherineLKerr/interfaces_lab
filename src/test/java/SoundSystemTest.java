@@ -6,10 +6,12 @@ import static org.junit.Assert.assertEquals;
 public class SoundSystemTest{
 
     SoundSystem soundSystem;
+    Radio raddy;
 
     @Before
     public void setUp() {
         soundSystem = new SoundSystem("harry");
+        raddy = new Radio("cool radio","even cooler edition");
     }
 
     @Test
@@ -24,6 +26,11 @@ public class SoundSystemTest{
         soundSystem.lowerVolume();
         soundSystem.lowerVolume();
         assertEquals(4,soundSystem.getVolume());
+    }
+
+    @Test
+    public void canTuneRadio(){
+        assertEquals("connected to 105! yay!",soundSystem.tuneRadio(raddy,105));
     }
 
 

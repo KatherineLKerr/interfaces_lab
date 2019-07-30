@@ -31,5 +31,10 @@ public class SoundSystem {
         this.volume -=1;
     }
 
+    public String tuneRadio(Radio radio,int frequency){
+        radio.setFrequency(frequency);
+        return "connected to "+radio.getFrequency()+"! yay!";
+    }
+
 
 }
