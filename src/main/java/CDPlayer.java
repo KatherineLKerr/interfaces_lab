@@ -1,2 +1,2 @@
-public class CDPlayer extends Component{
-}
+//public class CDPlayer extends Component{
+//}
